@@ -1,0 +1,43 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                  (v3.2.0) 
+
+ 2023-12-03T21:49:47.889-06:00   INFO   10308   ---   [  restartedMain]     com.bm.ws.core.ExamenWsApplication         :  Starting ExamenWsApplication using Java 17.0.8.1 with PID 10308 (C:\Users\ing_e\Documents\workspace-spring-tool-suite-4-4.20.1\ExamenWs\target\classes started by ing_e in C:\Users\ing_e\Documents\workspace-spring-tool-suite-4-4.20.1\ExamenWs)
+ 2023-12-03T21:49:47.893-06:00   INFO   10308   ---   [  restartedMain]     com.bm.ws.core.ExamenWsApplication         :  No active profile set, falling back to 1 default profile: "default"
+ 2023-12-03T21:49:47.931-06:00   INFO   10308   ---   [  restartedMain]     .e.DevToolsPropertyDefaultsPostProcessor   :  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-03T21:49:47.931-06:00   INFO   10308   ---   [  restartedMain]     .e.DevToolsPropertyDefaultsPostProcessor   :  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-03T21:49:48.313-06:00   INFO   10308   ---   [  restartedMain]     .s.d.r.c.RepositoryConfigurationDelegate   :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2023-12-03T21:49:48.328-06:00   INFO   10308   ---   [  restartedMain]     .s.d.r.c.RepositoryConfigurationDelegate   :  Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+ 2023-12-03T21:49:48.495-06:00   WARN   10308   ---   [  restartedMain]     trationDelegate$BeanPostProcessorChecker   :  Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+ 2023-12-03T21:49:48.524-06:00   INFO   10308   ---   [  restartedMain]     .w.s.a.s.AnnotationActionEndpointMapping   :  Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ 2023-12-03T21:49:48.725-06:00   INFO   10308   ---   [  restartedMain]     o.s.b.w.embedded.tomcat.TomcatWebServer    :  Tomcat initialized with port 8091 (http)
+ 2023-12-03T21:49:48.733-06:00   INFO   10308   ---   [  restartedMain]     o.apache.catalina.core.StandardService     :  Starting service [Tomcat]
+ 2023-12-03T21:49:48.733-06:00   INFO   10308   ---   [  restartedMain]     o.apache.catalina.core.StandardEngine      :  Starting Servlet engine: [Apache Tomcat/10.1.16]
+ 2023-12-03T21:49:48.770-06:00   INFO   10308   ---   [  restartedMain]     o.a.c.c.C.[Tomcat].[localhost].[/]         :  Initializing Spring embedded WebApplicationContext
+ 2023-12-03T21:49:48.770-06:00   INFO   10308   ---   [  restartedMain]     w.s.c.ServletWebServerApplicationContext   :  Root WebApplicationContext: initialization completed in 839 ms
+ 2023-12-03T21:49:48.868-06:00   INFO   10308   ---   [  restartedMain]     o.hibernate.jpa.internal.util.LogHelper    :  HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2023-12-03T21:49:48.909-06:00   INFO   10308   ---   [  restartedMain]     org.hibernate.Version                      :  HHH000412: Hibernate ORM core version 6.3.1.Final
+ 2023-12-03T21:49:48.934-06:00   INFO   10308   ---   [  restartedMain]     o.h.c.internal.RegionFactoryInitiator      :  HHH000026: Second-level cache disabled
+ 2023-12-03T21:49:49.105-06:00   INFO   10308   ---   [  restartedMain]     o.s.o.j.p.SpringPersistenceUnitInfo        :  No LoadTimeWeaver setup: ignoring JPA class transformer
+ 2023-12-03T21:49:49.125-06:00   INFO   10308   ---   [  restartedMain]     com.zaxxer.hikari.HikariDataSource         :  HikariPool-1 - Starting...
+ 2023-12-03T21:49:49.341-06:00   INFO   10308   ---   [  restartedMain]     com.zaxxer.hikari.pool.HikariPool          :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3288c788
+ 2023-12-03T21:49:49.343-06:00   INFO   10308   ---   [  restartedMain]     com.zaxxer.hikari.HikariDataSource         :  HikariPool-1 - Start completed.
+ 2023-12-03T21:49:49.621-06:00   INFO   10308   ---   [  restartedMain]     o.h.e.t.j.p.i.JtaPlatformInitiator         :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 2023-12-03T21:49:49.626-06:00   INFO   10308   ---   [  restartedMain]     j.LocalContainerEntityManagerFactoryBean   :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2023-12-03T21:49:49.739-06:00   WARN   10308   ---   [  restartedMain]     JpaBaseConfiguration$JpaWebConfiguration   :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2023-12-03T21:49:49.990-06:00   INFO   10308   ---   [  restartedMain]     o.s.b.d.a.OptionalLiveReloadServer         :  LiveReload server is running on port 35729
+ 2023-12-03T21:49:50.019-06:00   INFO   10308   ---   [  restartedMain]     o.s.b.w.embedded.tomcat.TomcatWebServer    :  Tomcat started on port 8091 (http) with context path ''
+ 2023-12-03T21:49:50.024-06:00   INFO   10308   ---   [  restartedMain]     com.bm.ws.core.ExamenWsApplication         :  Started ExamenWsApplication in 2.394 seconds (process running for 2.955)
+ 2023-12-03T21:49:53.277-06:00   INFO   10308   ---   [nio-8091-exec-1]     o.a.c.c.C.[Tomcat].[localhost].[/]         :  Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+ 2023-12-03T21:49:53.278-06:00   INFO   10308   ---   [nio-8091-exec-1]     o.s.w.t.http.MessageDispatcherServlet      :  Initializing Servlet 'messageDispatcherServlet'
+ 2023-12-03T21:49:53.281-06:00   INFO   10308   ---   [nio-8091-exec-1]     o.s.ws.soap.saaj.SaajSoapMessageFactory    :  Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+ 2023-12-03T21:49:53.293-06:00   INFO   10308   ---   [nio-8091-exec-1]     o.s.w.t.http.MessageDispatcherServlet      :  Completed initialization in 15 ms
+ 2023-12-03T21:49:53.415-06:00   INFO   10308   ---   [nio-8091-exec-1]     c.bm.ws.core.repository.ConsultaBdMsql     :  Inicia en obtenVentasPorMonto()
+ 2023-12-03T21:49:53.436-06:00   INFO   10308   ---   [nio-8091-exec-1]     c.bm.ws.core.repository.ConsultaBdMsql     :  50 - Paquete $50
+ 2023-12-03T21:49:53.436-06:00   INFO   10308   ---   [nio-8091-exec-1]     c.bm.ws.core.repository.ConsultaBdMsql     :  50
+ 2023-12-03T21:49:53.436-06:00   INFO   10308   ---   [nio-8091-exec-1]     c.bm.ws.core.repository.ConsultaBdMsql     :  2023-12-03T21:49:53.432-06:00
